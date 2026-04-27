@@ -307,22 +307,8 @@ blockquote {
   transition: all .2s;
 }
 .team-card:hover { border-color: rgba(0,180,216,0.3); transform: translateY(-2px); }
-.team-card.ceo {
-}
-.team-card.highlight-card {
-  border-color: var(--teal);
-  background: rgba(0,180,216,0.1);
-  box-shadow: 0 0 20px rgba(0,180,216,0.12);
-}
 .team-name { font-weight: 700; margin-bottom: 0.25rem; }
 .team-role { font-size: 0.8rem; color: var(--muted); }
-.team-badge {
-  display: inline-block; margin-top: 0.5rem;
-  background: var(--teal); color: var(--ocean);
-  font-size: 0.65rem; font-weight: 800;
-  padding: 2px 10px; border-radius: 20px; letter-spacing: 0.05em;
-}
-
 /* ── QUIZ ── */
 #quiz { background: linear-gradient(160deg, #0a1628 0%, #091520 100%); }
 #quiz-container { max-width: 700px; margin: 0 auto; }
